@@ -1,0 +1,140 @@
+<web-app>
+
+
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+    <servlet>
+	<servlet-name>LoginValidation</servlet-name>
+	<servlet-class>joseph.LoginValidation</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>LoginValidation</servlet-name>
+	<url-pattern>/LoginValidation</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>ApplicationEntry</servlet-name>
+	<servlet-class>joseph.ApplicationEntry</servlet-class>
+</servlet>
+
+ <servlet-mapping>
+    <servlet-name>ApplicationEntry</servlet-name>
+    <url-pattern>/ApplicationEntry</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>OnsiteArrival</servlet-name>
+    <servlet-class>joseph.OnsiteArrival</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OnsiteArrival</servlet-name>
+    <url-pattern>/OnsiteArrival</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Enquiry</servlet-name>
+    <servlet-class>joseph.Enquiry</servlet-class>
+  </servlet>
+<servlet-mapping>
+    <servlet-name>Enquiry</servlet-name>
+    <url-pattern>/Enquiry</url-pattern>
+  </servlet-mapping>
+<servlet>
+    <servlet-name>Interview</servlet-name>
+    <servlet-class>joseph.Interview</servlet-class>
+  </servlet>
+<servlet-mapping>
+    <servlet-name>Interview</servlet-name>
+    <url-pattern>/Interview</url-pattern>
+  </servlet-mapping>
+<servlet>
+    <servlet-name>OnsiteDeparture</servlet-name>
+    <servlet-class>joseph.OnsiteDeparture</servlet-class>
+  </servlet>
+<servlet-mapping>
+    <servlet-name>OnsiteDeparture</servlet-name>
+    <url-pattern>/OnsiteDeparture</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Renewal</servlet-name>
+    <servlet-class>joseph.Renewal</servlet-class>
+  </servlet>
+<servlet-mapping>
+    <servlet-name>Renewal</servlet-name>
+    <url-pattern>/Renewal</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Reports</servlet-name>
+    <servlet-class>joseph.Reports</servlet-class>
+  </servlet>
+<servlet-mapping>
+    <servlet-name>Reports</servlet-name>
+    <url-pattern>/Reports</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Results</servlet-name>
+    <servlet-class>joseph.Results</servlet-class>
+  </servlet>
+<servlet-mapping>
+    <servlet-name>Results</servlet-name>
+    <url-pattern>/Results</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>check</servlet-name>
+    <servlet-class>joseph.check</servlet-class>
+  </servlet>
+<servlet-mapping>
+    <servlet-name>check</servlet-name>
+    <url-pattern>/check</url-pattern>
+  </servlet-mapping>
+<servlet>e
+    <servlet-name>delExecutive</servlet-name>
+    <servlet-class>joseph.delExecutive</servlet-class>
+  </servlet>
+<servlet-mapping>
+    <servlet-name>delExecutive</servlet-name>
+    <url-pattern>/delExecutive</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>newExecutive</servlet-name>
+    <servlet-class>joseph.newExecutive</servlet-class>
+  </servlet>
+<servlet-mapping>
+    <servlet-name>newExecutive</servlet-name>
+    <url-pattern>/newExecutive</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>staRead</servlet-name>
+    <servlet-class>joseph.staRead</servlet-class>
+  </servlet>
+<servlet-mapping>
+    <servlet-name>staRead</servlet-name>
+    <url-pattern>/staRead</url-pattern>
+  </servlet-mapping>
+<servlet>
+    <servlet-name>staUnRead</servlet-name>
+    <servlet-class>joseph.staUnRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>staUnRead</servlet-name>
+    <url-pattern>/staUnRead</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>newEmploy</servlet-name>
+    <servlet-class>joseph.newEmploy</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>newEmploy</servlet-name>
+    <url-pattern>/newEmploy</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>delEmploy</servlet-name>
+    <servlet-class>joseph.delEmploy</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>delEmploy</servlet-name>
+    <url-pattern>/delEmploy</url-pattern>
+  </servlet-mapping>
+
+</web-app>

@@ -1,0 +1,91 @@
+<!DOCTYPE weblogic-web-app PUBLIC "-//BEA Systems, Inc.//DTD Web Application 8.1//EN" "http://www.bea.com/servers/wls810/dtd/weblogic810-web-jar.dtd">
+
+<weblogic-web-app>
+
+
+
+
+  <jsp-descriptor>
+    <jsp-param>
+      <param-name>compileCommand</param-name>
+      <param-value>javac</param-value>
+    </jsp-param>
+    <jsp-param>
+      <param-name>workingDir</param-name>
+      <param-value>C:\DOCUME~1\senthil\LOCALS~1\Temp\</param-value>
+    </jsp-param>
+    <jsp-param>
+      <param-name>keepgenerated</param-name>
+      <param-value>true</param-value>
+    </jsp-param>
+    <jsp-param>
+      <param-name>pageCheckSeconds</param-name>
+      <param-value>5</param-value>
+    </jsp-param>
+    <jsp-param>
+      <param-name>precompile</param-name>
+      <param-value>true</param-value>
+    </jsp-param>
+  </jsp-descriptor>
+
+
+
+
+  <servlet-descriptor>
+    <servlet-name>LoginValidation</servlet-name>
+  </servlet-descriptor>
+
+  <servlet-descriptor>
+    <servlet-name>check</servlet-name>
+  </servlet-descriptor>
+
+  <servlet-descriptor>
+    <servlet-name>newExecutive</servlet-name>
+  </servlet-descriptor>
+
+  <servlet-descriptor>
+    <servlet-name>delExecutive</servlet-name>
+  </servlet-descriptor>
+
+  <servlet-descriptor>
+    <servlet-name>ApplicationEntry</servlet-name>
+  </servlet-descriptor>
+
+  <servlet-descriptor>
+    <servlet-name>Enquiry</servlet-name>
+  </servlet-descriptor>
+
+  <servlet-descriptor>
+    <servlet-name>Interview</servlet-name>
+  </servlet-descriptor>
+
+  <servlet-descriptor>
+    <servlet-name>Results</servlet-name>
+  </servlet-descriptor>
+
+  <servlet-descriptor>
+    <servlet-name>OnsiteDeparture</servlet-name>
+  </servlet-descriptor>
+
+  <servlet-descriptor>
+    <servlet-name>OnsiteArrival</servlet-name>
+  </servlet-descriptor>
+
+  <servlet-descriptor>
+    <servlet-name>Renewal</servlet-name>
+  </servlet-descriptor>
+
+  <servlet-descriptor>
+    <servlet-name>Reports</servlet-name>
+  </servlet-descriptor>
+
+  <servlet-descriptor>
+    <servlet-name>staRead</servlet-name>
+  </servlet-descriptor>
+
+  <servlet-descriptor>
+    <servlet-name>staUnRead</servlet-name>
+  </servlet-descriptor>
+
+</weblogic-web-app>
+
